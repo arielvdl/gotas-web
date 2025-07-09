@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gotas
 
-## Getting Started
+Aplicação moderna construída com Next.js, React e Catalyst UI em modo escuro por padrão.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 15** - Framework React com App Router
+- **React 18** - Biblioteca para interfaces de usuário
+- **TypeScript** - Superset tipado do JavaScript
+- **Tailwind CSS** - Framework CSS utilitário
+- **Catalyst UI** - Componentes elegantes da equipe Tailwind
+- **Headless UI** - Componentes acessíveis sem estilo
+- **Heroicons** - Ícones SVG bonitos
+- **Inter Font** - Tipografia moderna
+
+## ✨ Características
+
+- 🌙 **Modo escuro por padrão** - Interface otimizada para modo escuro
+- 🎨 **Design moderno** - Componentes elegantes e acessíveis
+- 📱 **Responsivo** - Funciona perfeitamente em todos os dispositivos
+- ⚡ **Performance** - Otimizado com Server Components
+- 🔧 **TypeScript** - Tipagem estática para melhor DX
+- 🎯 **SEO Ready** - Configurado para otimização de busca
+
+## 🛠️ Instalação
 
 ```bash
+# Clone o repositório
+git clone <url-do-repositorio>
+
+# Entre no diretório
+cd gotas
+
+# Instale as dependências
+npm install
+
+# Execute o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+gotas/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── button.tsx
+│       └── link.tsx
+├── public/
+├── tailwind.config.ts
+├── package.json
+└── README.md
+```
 
-## Learn More
+## 🎨 Componentes
 
-To learn more about Next.js, take a look at the following resources:
+### Button
+Componente de botão com variações de cor e estilo:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```tsx
+import { Button } from '@/components/button'
+import { PlusIcon } from '@heroicons/react/16/solid'
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+// Botão sólido
+<Button>
+  <PlusIcon />
+  Clique aqui
+</Button>
 
-## Deploy on Vercel
+// Botão outline
+<Button outline>
+  Saiba mais
+</Button>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+// Botão como link
+<Button href="/sobre">
+  Ir para página
+</Button>
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Link
+Componente de link integrado com Next.js:
+
+```tsx
+import { Link } from '@/components/link'
+
+<Link href="/sobre">
+  Sobre nós
+</Link>
+```
+
+## 🌙 Modo Escuro
+
+O projeto está configurado para usar modo escuro por padrão. As variáveis CSS estão definidas em `globals.css` e o Tailwind está configurado com `darkMode: 'class'`.
+
+## 📝 Scripts
+
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria a build de produção
+- `npm run start` - Inicia o servidor de produção
+- `npm run lint` - Executa o linter
+
+## 🤝 Contribuição
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
