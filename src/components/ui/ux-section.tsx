@@ -30,10 +30,10 @@ export function UxSection() {
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           <div className="space-y-6 sm:space-y-8">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
-              3 cliques e pronto.
+              Facilidade para quem cria. Praticidade para quem resgata.
             </h2>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-lg">
-              Nossa experiência é imbatível: qualquer pessoa pode resgatar suas GOTAS. Não precisa de experiência em Web3; o onboarding é simples e rápido.
+              Nossa experiência é imbatível: Com apenas 3 cliques qualquer pessoa resgata sua gota e já entra direto para sua base. Sem complicação, sem barreiras técnicas. Uma única gota pode atrair milhares de leads para o seu negócio.
             </p>
           </div>
           
