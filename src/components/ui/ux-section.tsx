@@ -25,15 +25,14 @@ export function UxSection() {
   }, []);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-24">
-      <div className="bg-gray-900/10 backdrop-blur-sm rounded-3xl p-8 lg:p-12">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div className="space-y-8">
-            <h2 className="text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
-              3 cliques e<br />
-              pronto.
+    <div className="w-full max-w-7xl mx-auto px-4 py-12 sm:py-16 lg:py-24">
+      <div className="bg-gray-900/10 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+          <div className="space-y-6 sm:space-y-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
+              3 cliques e pronto.
             </h2>
-            <p className="text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-lg">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-lg">
               Nossa experiência é imbatível: qualquer pessoa pode resgatar suas GOTAS. Não precisa de experiência em Web3; o onboarding é simples e rápido.
             </p>
           </div>
@@ -59,4 +58,4 @@ export function UxSection() {
       </div>
     </div>
   );
-} 
+}
