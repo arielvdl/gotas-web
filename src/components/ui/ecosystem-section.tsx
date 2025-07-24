@@ -1,5 +1,7 @@
 'use client';
 
+import { Button } from '@/components/button';
+
 export function EcosystemSection() {
   return (
     <section className="relative">
@@ -32,12 +34,12 @@ export function EcosystemSection() {
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Crie as suas próprias gotas personalizadas e comece a ativar, recompensar e coletar leads em tempo real.
             </p>
-            <button 
-              onClick={() => window.open('#', '_blank')}
+            <Button 
+              href="#"
               className="bg-cyan-400 text-black px-4 py-2 rounded-lg font-bold hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
             >
               Criar gota
-            </button>
+            </Button>
           </div>
         </div>
 
@@ -60,12 +62,12 @@ export function EcosystemSection() {
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Expanda suas vendas para o mundo digital: aceite pagamentos em cripto facilmente, de pessoa para pessoa ou em sua loja online, com taxas baixas e liquidação instantânea.
             </p>
-            <button 
-              onClick={() => window.open('http://commerce.gotas.com/', '_blank')}
+            <Button 
+              href="http://commerce.gotas.com/"
               className="bg-cyan-400 text-black px-4 py-2 rounded-lg font-bold hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
             >
               Criar conta
-            </button>
+            </Button>
           </div>
         </div>
 
@@ -88,12 +90,12 @@ export function EcosystemSection() {
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Incentive, premie e retenha seu público com um programa de recompensas digitais totalmente personalizável. Sua marca define as regras, os prêmios e os gatilhos — o Gotas faz o resto.
             </p>
-            <button 
-              onClick={() => window.open('http://rewards.gotas.com/', '_blank')}
+            <Button 
+              href="http://rewards.gotas.com/"
               className="bg-purple-400 text-black px-4 py-2 rounded-lg font-bold hover:bg-purple-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
             >
               Criar campanha
-            </button>
+            </Button>
           </div>
         </div>
 
@@ -116,12 +118,12 @@ export function EcosystemSection() {
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               A maneira mais rápida e acessível de entrar no universo digital. No Brasil, o PIX é o método favorito — no Gotas, seu público compra cripto em segundos, direto da carteira para sua experiência.
             </p>
-            <button 
-              onClick={() => window.open('https://pix.gotas.com/', '_blank')}
+            <Button 
+              href="https://pix.gotas.com/"
               className="bg-green-400 text-black px-4 py-2 rounded-lg font-bold hover:bg-green-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
             >
               Comprar
-            </button>
+            </Button>
           </div>
         </div>
       </div>

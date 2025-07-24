@@ -42,7 +42,7 @@ export function UxSection() {
             </p>
             <div className="pt-4">
               <Button 
-                onClick={() => window.open('https://gotas.social/', '_blank')}
+                href="https://gotas.social/"
                 className="flex items-center gap-2 text-black px-4 sm:px-7 py-4 sm:py-6 h-auto w-auto text-sm sm:text-lg font-bold rounded-[2rem] bg-white shadow-none hover:bg-gray-100 transition-all"
               >
                 <Droplet className="size-4 sm:size-5 text-black" />
