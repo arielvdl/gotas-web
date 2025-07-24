@@ -2,13 +2,13 @@ export function ProblemSection() {
   return (
     <div className="w-full max-w-6xl mx-auto text-center space-y-6 sm:space-y-8 px-4">
       <div className="text-center space-y-6 sm:space-y-8">
-           <h3 className="text-sm sm:text-base font-medium text-cyan-400 uppercase tracking-wider">
+           <h3 className="text-base sm:text-base font-medium text-cyan-400 uppercase tracking-wider">
               O PROBLEMA
             </h3>
-           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
+           <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
               Pontos tradicionais já não engajam. Gotas faz diferente:
             </h2>
-           <p className="text-base sm:text-lg lg:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+           <p className="text-sm sm:text-lg lg:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
              As marcas enfrentam os mesmos problemas: Dependência das redes sociais, alto investimento em mídia paga, CAC alto, seguidores que não se relacionam com a sua marca e programas de fidelidade ineficientes. Chega de depender de algoritmos e plataformas: agora, a audiência é sua.
            </p>
         

@@ -45,7 +45,7 @@ export function FaqSection() {
   return (
     <div className="w-full max-w-6xl mx-auto text-center space-y-12 sm:space-y-16 px-4">
       <div className="space-y-6 sm:space-y-8">
-        <h3 className="text-sm sm:text-base font-medium text-cyan-400 uppercase tracking-wider">
+        <h3 className="text-base sm:text-base font-medium text-cyan-400 uppercase tracking-wider">
           AINDA TEM DÚVIDAS?
         </h3>
         
@@ -56,7 +56,7 @@ export function FaqSection() {
                 onClick={() => toggleItem(index)}
                 className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-900 transition-colors duration-200"
               >
-                <h4 className="text-lg sm:text-xl font-bold text-white pr-4">
+                <h4 className="text-sm sm:text-xl font-bold text-white pr-4">
                   {item.question}
                 </h4>
                 <svg

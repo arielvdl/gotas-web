@@ -5,6 +5,7 @@ import { ProblemSection } from '@/components/ui/problem-section'
 import { ComparisonTable } from '@/components/ui/comparison-table'
 import { ApiSection } from '@/components/ui/api-section'
 import { UxSection } from '@/components/ui/ux-section'
+import { EcosystemSection } from '@/components/ui/ecosystem-section'
 import { FaqSection } from '@/components/ui/faq-section'
 
 export default function Home() {
@@ -46,7 +47,7 @@ export default function Home() {
             </div>
 
             <div className="space-y-6 sm:space-y-8">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black leading-[0.9] tracking-tight">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black leading-[1.0] lg:leading-[1.2] tracking-tight">
                 <span className="sm:hidden">
                   TRANSFORME<br />
                   SEGUIDORES EM LEADS,<br />
@@ -87,11 +88,11 @@ export default function Home() {
              </div>
           </div>
 
-          <div className="relative flex justify-center lg:justify-end mt-8 lg:mt-0">
-            <div className="relative">
-              <div className="aspect-square w-[280px] sm:w-[400px] md:w-[480px] lg:w-[512px] xl:w-[614px]">
+          <div className="relative flex justify-center lg:justify-end mt-4 lg:mt-0 px-4 lg:px-0">
+            <div className="relative w-full max-w-[280px] xs:max-w-[300px] sm:max-w-[400px] md:max-w-[480px] lg:max-w-[512px] xl:max-w-[614px] mx-auto lg:mx-0">
+              <div className="aspect-square w-full">
                 <video
-                  className="w-full h-full object-cover rounded-2xl sm:rounded-3xl shadow-2xl"
+                  className="w-full h-full object-cover rounded-xl sm:rounded-2xl lg:rounded-3xl shadow-2xl"
                   autoPlay
                   loop
                   muted
@@ -100,7 +101,7 @@ export default function Home() {
                   <source src="https://88ae784e400c50e563482987bb9e892e.cdn.bubble.io/d215/f1734432968430x724472638783376400/home.mp4" type="video/mp4" />
                 </video>
               </div>
-              <div className="absolute inset-0 rounded-2xl sm:rounded-3xl ring-1 ring-white/10"></div>
+              <div className="absolute inset-0 rounded-xl sm:rounded-2xl lg:rounded-3xl ring-1 ring-white/10"></div>
             </div>
           </div>
         </div>
@@ -124,6 +125,10 @@ export default function Home() {
 
         <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40">
           <ProblemSection />
+        </div>
+
+        <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40">
+          <EcosystemSection />
         </div>
 
         <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40">

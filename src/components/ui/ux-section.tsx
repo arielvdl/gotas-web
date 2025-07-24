@@ -31,10 +31,13 @@ export function UxSection() {
       <div className="bg-gray-900/10 backdrop-blur-sm rounded-2xl sm:rounded-3xl p-6 sm:p-8 lg:p-12">
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           <div className="space-y-6 sm:space-y-8">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
+            <h3 className="text-base sm:text-base font-medium text-gray-400 tracking-[0.2em] uppercase">
+              Quer mais leads e vendas?
+            </h3>
+            <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
               Facilidade para quem cria. Praticidade para quem resgata.
             </h2>
-            <p className="text-lg sm:text-xl text-gray-300 leading-relaxed max-w-lg">
+            <p className="text-sm sm:text-xl text-gray-300 leading-relaxed max-w-lg">
               Nossa experiência é imbatível: Com apenas 3 cliques qualquer pessoa pode resgatar a sua gota e em instantes você passa a ter acesso direto a esse lead. Sem complicação, sem barreiras técnicas. Uma única gota pode atrair milhares de leads para o seu negócio.
             </p>
             <div className="pt-4">
