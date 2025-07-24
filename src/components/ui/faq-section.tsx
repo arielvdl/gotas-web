@@ -13,8 +13,12 @@ export function FaqSection() {
 
   const faqItems: FaqItem[] = [
     {
+      question: "O que são Gotas?",
+      answer: "No Gotas.com, uma gota é um token digital que representa uma recompensa, benefício ou acesso exclusivo oferecido por uma marca, criador de conteúdo, artista, time ou qualquer organização que deseje se conectar de forma mais próxima com sua audiência."
+    },
+    {
       question: "Preciso entender de blockchain para usar o Gotas?",
-      answer: "De jeito nenhum! O Gotas foi feito para ser simples: você cria, seu público resgata — sem termos técnicos, sem complexidade."
+      answer: "De jeito nenhum! O Gotas foi feito para ser simples: você cria, seu público resgata — sem termos técnicos, sem complexidade. As gotas são registradas na blockchain, o que garante transparência, segurança e rastreabilidade — e o melhor: podem ser distribuídas de forma super simples, mesmo para quem nunca usou Web3 antes."
     },
     {
       question: "Como posso usar as gotas?",
@@ -23,6 +27,10 @@ export function FaqSection() {
     {
       question: "Consigo saber quem resgatou minha gota?",
       answer: "Sim! Cada gota resgatada vira um lead qualificado, com informações e permissão para ativação direta — por onde você quiser."
+    },
+    {
+      question: "As Gotas têm valor real?",
+      answer: "O valor das Gotas é definido por você e pela sua comunidade. Cada Gota é um ativo digital e, ao criar uma, você escolhe o significado e o benefício que ela vai oferecer. Veja alguns exemplos de como uma Gota pode ter valor real:\n\n🎁 Presente digital: Pode ser um brinde, desconto ou experiência exclusiva para quem receber.\n\n🎟️ Acesso especial: Permite participar de sorteios, eventos, grupos privados ou conteúdos exclusivos.\n\n💎 Colecionável digital: Funciona como um NFT, representando pertencimento a uma comunidade ou acesso a edições limitadas.\n\n💰 Ativo de valor: Pode ser trocada, vendida ou utilizada em campanhas e ações da marca, criando oportunidades reais de engajamento e recompensa.\n\nNo fim, o que faz uma Gota ter valor real é o propósito e a utilidade que você cria para ela — e como ela conecta sua marca à sua audiência."
     },
     {
       question: "Quais as principais diferenças entre o Gotas e os pontos e programas tradicionais?",
@@ -75,9 +83,9 @@ export function FaqSection() {
                 <div className="px-6 pb-6 border-t border-gray-700">
                   <div className="pt-4">
                     {typeof item.answer === 'string' ? (
-                      <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
+                      <div className="text-base sm:text-lg text-gray-300 leading-relaxed text-left whitespace-pre-line">
                         {item.answer}
-                      </p>
+                      </div>
                     ) : (
                       item.answer
                     )}
