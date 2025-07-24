@@ -1,8 +1,11 @@
+'use client';
+
 import { ProgressiveBlurSlider } from '@/components/ui/progressive-blur-slider'
 import { ProblemSection } from '@/components/ui/problem-section'
 import { ComparisonTable } from '@/components/ui/comparison-table'
 import { ApiSection } from '@/components/ui/api-section'
 import { UxSection } from '@/components/ui/ux-section'
+import { FaqSection } from '@/components/ui/faq-section'
 
 export default function Home() {
   return (
@@ -47,26 +50,37 @@ export default function Home() {
                 <span className="sm:hidden">
                   TRANSFORME<br />
                   SEGUIDORES EM LEADS,<br />
-                  LEADS EM CLIENTES.
+                  E LEADS EM CLIENTES FIÉIS.
                 </span>
                 <span className="hidden sm:inline">
-                  TRANSFORME SEGUIDORES EM LEADS, LEADS EM CLIENTES.
+                  TRANSFORME SEGUIDORES EM LEADS, E LEADS EM CLIENTES FIÉIS.
                 </span>
                 <span className="block text-gray-400 mt-2 sm:mt-4 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black">
                   
                 </span>
               </h1>
               <p className="text-sm sm:text-base lg:text-lg text-gray-400">
-                Mais vendas, mais engajamento, mais fidelidade: o Gotas conecta sua marca à audiência, oferecendo benefícios exclusivos que ativam e retêm clientes.
+                Mais vendas, mais engajamento, mais recorrência: com Gotas, sua marca conecta e ativa sua audiência de verdade. Ofereça benefícios exclusivos, recompensas digitais e experiências únicas em poucos cliques — sem depender de algoritmos, mídias pagas ou barreiras técnicas.
               </p>
             </div>
 
             <div className="flex flex-row gap-3 sm:gap-4 pt-4">
-               <button className="bg-cyan-400 text-black px-3 sm:px-4 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-2xl font-black hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 flex-1 sm:flex-none">
+               <button 
+                 onClick={() => {
+                   const apiSection = document.querySelector('[data-section="api-section"]');
+                   if (apiSection) {
+                     apiSection.scrollIntoView({ behavior: 'smooth' });
+                   }
+                 }}
+                 className="bg-cyan-400 text-black px-3 sm:px-4 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-2xl font-black hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 flex-1 sm:flex-none"
+               >
                  <div className="text-xs font-medium">- COMO -</div>
                  <div className="text-sm sm:text-base lg:text-lg xl:text-2xl font-black">FUNCIONA</div>
                </button>
-               <button className="bg-white text-black px-3 sm:px-4 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-2xl font-black hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 flex-1 sm:flex-none">
+               <button 
+                 onClick={() => window.open('https://gotas.social/', '_blank')}
+                 className="bg-white text-black px-3 sm:px-4 lg:px-10 py-3 sm:py-4 lg:py-5 rounded-2xl font-black hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 flex-1 sm:flex-none"
+               >
                  <div className="text-xs font-medium">- CRIE -</div>
                  <div className="text-sm sm:text-base lg:text-lg xl:text-2xl font-black">SUA GOTA</div>
                </button>
@@ -100,7 +114,7 @@ export default function Home() {
           <ProgressiveBlurSlider />
         </div>
 
-        <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40">
+        <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40" data-section="api-section">
           <ApiSection />
         </div>
 
@@ -112,8 +126,8 @@ export default function Home() {
           <ProblemSection />
         </div>
 
-        <div className="mt-12 sm:mt-16 lg:mt-24 xl:mt-32">
-          <ComparisonTable />
+        <div className="mt-16 sm:mt-24 lg:mt-32 xl:mt-40">
+          <FaqSection />
         </div>
 
 
