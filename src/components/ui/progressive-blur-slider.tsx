@@ -3,15 +3,15 @@ import { ProgressiveBlur } from '@/components/ui/progressive-blur';
 import Image from 'next/image';
 
 const logos = [
-  { src: '/logos/thirdweb.svg', alt: 'Thirdweb' },
-  { src: '/logos/exame-logo-1-1 1.avif', alt: 'Exame' },
-  { src: '/logos/Group 1000006196.avif', alt: 'Group Logo' },
-  { src: '/logos/moonbeam-glmr-logo-full 1.avif', alt: 'Moonbeam' },
-  { src: '/logos/image 3.avif', alt: 'Image 3' },
-  { src: '/logos/Polygon_Mono_Light 1.avif', alt: 'Polygon' },
-  { src: '/logos/Logo 1.avif', alt: 'Logo 1' },
-  { src: '/logos/65b7b3726a362e8421036e36_Base_Wordmark_Blue 1.avif', alt: 'Base' },
-  { src: '/logos/cnbc_logo-7RFd0M.png', alt: 'CNBC' },
+  { src: '/logos/thirdweb.svg', alt: 'Thirdweb - Plataforma de desenvolvimento blockchain destacou Gotas como solução inovadora' },
+  { src: '/logos/exame-logo-1-1 1.avif', alt: 'Revista Exame destacou Gotas como startup revolucionária em recompensas digitais' },
+  { src: '/logos/Group 1000006196.avif', alt: 'Parceiro estratégico na implementação de tokens de recompensa digital' },
+  { src: '/logos/moonbeam-glmr-logo-full 1.avif', alt: 'Moonbeam - Rede blockchain que suporta os tokens de recompensa Gotas' },
+  { src: '/logos/image 3.avif', alt: 'Mídia especializada em Web3 destacou a plataforma Gotas' },
+  { src: '/logos/Polygon_Mono_Light 1.avif', alt: 'Polygon - Infraestrutura blockchain utilizada pelo ecossistema Gotas' },
+  { src: '/logos/Logo 1.avif', alt: 'Parceiro tecnológico do ecossistema de recompensas digitais Gotas' },
+  { src: '/logos/65b7b3726a362e8421036e36_Base_Wordmark_Blue 1.avif', alt: 'Base - Rede blockchain compatível com tokens de recompensa Gotas' },
+  { src: '/logos/cnbc_logo-7RFd0M.png', alt: 'CNBC destacou Gotas como inovação em programas de fidelidade digital' },
 ];
 
 export function ProgressiveBlurSlider() {
