@@ -1,6 +1,5 @@
 import { ProgressiveBlurSlider } from '@/components/ui/progressive-blur-slider'
 import { ProblemSection } from '@/components/ui/problem-section'
-import { ComparisonTable } from '@/components/ui/comparison-table'
 import { ApiSection } from '@/components/ui/api-section'
 import { UxSection } from '@/components/ui/ux-section'
 import { EcosystemSection } from '@/components/ui/ecosystem-section'
