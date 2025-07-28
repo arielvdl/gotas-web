@@ -8,21 +8,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Como Transformar Seguidores em Clientes com Recompensas Digitais | Gotas",
-  description: "Descubra como criar tokens de recompensa sem conhecer blockchain. Transforme seguidores em leads qualificados e aumente vendas com campanhas de fidelidade Web3 simples.",
+  title: "Gotas | Plataforma de Recompensas Digitais",
+  description: "Crie recompensas digitais que engajam, fidelizam e transformam seguidores em clientes. Conecte sua marca à sua audiência de forma autêntica e inovadora.",
   keywords: "recompensas digitais, programa de fidelidade Web3, tokens de recompensa, converter seguidores em clientes, marketing com blockchain, gotas digitais, campanhas de engajamento",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   openGraph: {
-    title: "Como Transformar Seguidores em Clientes com Recompensas Digitais | Gotas",
-    description: "Descubra como criar tokens de recompensa sem conhecer blockchain. Transforme seguidores em leads qualificados e aumente vendas com campanhas de fidelidade Web3 simples.",
+    title: "Gotas | Plataforma de Recompensas Digitais",
+    description: "Crie recompensas digitais que engajam, fidelizam e transformam seguidores em clientes. Conecte sua marca à sua audiência de forma autêntica e inovadora.",
     type: "website",
     locale: "pt_BR",
     siteName: "Gotas - Plataforma de Recompensas Digitais",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Como Transformar Seguidores em Clientes com Recompensas Digitais | Gotas",
-    description: "Descubra como criar tokens de recompensa sem conhecer blockchain. Transforme seguidores em leads qualificados e aumente vendas com campanhas de fidelidade Web3 simples.",
+    title: "Gotas | Plataforma de Recompensas Digitais",
+    description: "Crie recompensas digitais que engajam, fidelizam e transformam seguidores em clientes. Conecte sua marca à sua audiência de forma autêntica e inovadora.",
   },
   alternates: {
     canonical: "https://gotas.com",

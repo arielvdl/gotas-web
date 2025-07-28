@@ -31,50 +31,32 @@ export default function Home() {
                 </div>
                 <span>PROTOCOL</span>
               </div>
+              <p className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tighter leading-none">
+                TRANSFORME SEGUIDORES EM LEADS, E LEADS EM CLIENTES FIÉIS.
+              </p>
             </div>
+            <p className="text-sm sm:text-xl lg:text-2xl text-gray-400 max-w-2xl">
+              Mais vendas, mais engajamento, mais recorrência: com Gotas, sua marca conecta e ativa sua audiência de verdade. Ofereça benefícios exclusivos, recompensas digitais e experiências únicas em poucos cliques — sem depender de algoritmos, mídias pagas ou barreiras técnicas.
+            </p>
 
-            <div className="space-y-8">
-              <div className="space-y-4">
-                <p className="text-sm text-cyan-400 font-semibold uppercase tracking-wider">Como transformar seguidores em clientes?</p>
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black leading-[0.9] tracking-tight">
-                  <span className="sm:hidden">
-                    TRANSFORME<br />
-                    SEGUIDORES EM LEADS,<br />
-                    E LEADS EM CLIENTES FIÉIS.
-                  </span>
-                  <span className="hidden sm:inline">
-                    TRANSFORME SEGUIDORES EM LEADS, E LEADS EM CLIENTES FIÉIS.
-                  </span>
-                </h1>
-              </div>
-              <div className="space-y-4">
-                <p className="text-lg font-semibold text-white">
-                  Resposta direta: Com tokens de recompensa digitais que criam conexões reais entre sua marca e audiência.
-                </p>
-                <p className="text-sm sm:text-base lg:text-lg text-gray-400">
-                  Mais vendas, mais engajamento, mais recorrência: com Gotas, sua marca conecta e ativa sua audiência de verdade. Ofereça benefícios exclusivos, recompensas digitais e experiências únicas em poucos cliques — sem depender de algoritmos, mídias pagas ou barreiras técnicas.
-                </p>
-              </div>
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-4">
+              <button 
+                onClick={() => {
+                  const destaquesSection = document.getElementById('destaques');
+                  if (destaquesSection) {
+                    destaquesSection.scrollIntoView({ behavior: 'smooth' });
+                  }
+                }}
+                className="bg-cyan-400 text-black px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-black text-base sm:text-lg hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
+              >
+                <div className="text-xs sm:text-sm font-medium">- COMO -</div>
+                <div className="text-lg sm:text-2xl font-black">FUNCIONA</div>
+              </button>
+              <a href="https://gotas.com" className="bg-white text-black px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-black text-base sm:text-lg hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 text-center block w-full sm:w-auto">
+                <div className="text-xs sm:text-sm font-medium">- CRIE -</div>
+                <div className="text-lg sm:text-2xl font-black">SUA GOTA</div>
+              </a>
             </div>
-
-                         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-4">
-               <button 
-                 onClick={() => {
-                   const destaquesSection = document.getElementById('destaques');
-                   if (destaquesSection) {
-                     destaquesSection.scrollIntoView({ behavior: 'smooth' });
-                   }
-                 }}
-                 className="bg-cyan-400 text-black px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-black text-base sm:text-lg hover:bg-cyan-300 transition-all duration-200 transform hover:scale-105 w-full sm:w-auto"
-               >
-                 <div className="text-xs sm:text-sm font-medium">- COMO -</div>
-                 <div className="text-lg sm:text-2xl font-black">FUNCIONA</div>
-               </button>
-               <a href="https://gotas.com" className="bg-white text-black px-6 sm:px-10 py-4 sm:py-5 rounded-2xl font-black text-base sm:text-lg hover:bg-gray-100 transition-all duration-200 transform hover:scale-105 text-center block w-full sm:w-auto">
-                 <div className="text-xs sm:text-sm font-medium">- CRIE -</div>
-                 <div className="text-lg sm:text-2xl font-black">SUA GOTA</div>
-               </a>
-             </div>
           </div>
 
           <div className="relative flex justify-center lg:justify-end">
