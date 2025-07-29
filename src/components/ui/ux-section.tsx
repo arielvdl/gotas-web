@@ -32,7 +32,7 @@ export function UxSection() {
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           <div className="space-y-6 sm:space-y-8">
             <h3 className="text-base sm:text-base font-medium text-gray-400 tracking-[0.2em] uppercase">
-              Quer mais leads e vendas?
+              MAIS LEADS, MAIS VENDAS
             </h3>
             <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
               Facilidade para quem cria. Praticidade para quem resgata.

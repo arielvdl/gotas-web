@@ -6,6 +6,7 @@ import { ApiSection } from '@/components/ui/api-section'
 import { UxSection } from '@/components/ui/ux-section'
 import { EcosystemSection } from '@/components/ui/ecosystem-section'
 import { FaqSection } from '@/components/ui/faq-section'
+import { Footer } from '@/components/ui/footer'
 
 export default function Home() {
   return (
@@ -31,7 +32,7 @@ export default function Home() {
                 </div>
                 <span>PROTOCOL</span>
               </div>
-              <p className="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tighter leading-none">
+              <p className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tighter leading-none">
                 TRANSFORME SEGUIDORES EM LEADS, E LEADS EM CLIENTES FIÉIS.
               </p>
             </div>
@@ -39,7 +40,7 @@ export default function Home() {
               Mais vendas, mais engajamento, mais recorrência: com Gotas, sua marca conecta e ativa sua audiência de verdade. Ofereça benefícios exclusivos, recompensas digitais e experiências únicas em poucos cliques — sem depender de algoritmos, mídias pagas ou barreiras técnicas.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-4">
+            <div className="flex flex-row gap-4 sm:gap-6 pt-4">
               <button 
                 onClick={() => {
                   const destaquesSection = document.getElementById('destaques');
@@ -80,9 +81,9 @@ export default function Home() {
         <div id="destaques" className="mt-16 lg:mt-20">
           <div className="mb-4">
             <h2 className="text-lg lg:text-xl font-medium text-center text-gray-400 tracking-wide">
-              Onde o Gotas já foi destaque?
+              Reconhecido por grandes marcas e pela mídia:
             </h2>
-            <p className="text-center text-gray-500 mt-2">Principais veículos que cobriram nossa plataforma de recompensas digitais</p>
+            <p className="text-center text-gray-500 mt-2">Veja quem já faz parte do nosso ecossistema.</p>
           </div>
           <ProgressiveBlurSlider />
         </div>
@@ -107,6 +108,8 @@ export default function Home() {
           <FaqSection />
         </div>
       </div>
+      
+      <Footer />
     </div>
   )
 }
